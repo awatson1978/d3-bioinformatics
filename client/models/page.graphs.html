@@ -1,0 +1,31 @@
+<template name="graphsPageTemplate">
+    <div id="graphsPage" class="page">
+        <div class="doesnt-overlap-header">
+            <div class="spacer row">
+                {{#constant}}
+                <div id="forceDirectGraph"></div>
+                <div id="sunburstChart"></div>
+                <div id="collapsibleTreeChart"></div>
+                {{/constant}}
+            </div>
+            <!--<div id="leftSidebar" class="hide-for-medium hide-for-small left-anchored fullheight sidebar panel">-->
+                <!--<h6>Data Driven Documents</h6>-->
+                <!--<p>Bioinformatics is an inherently non-linear science, fundamentally dealing with hierarchical networks, cladograms, phylogenetic trees, helix strings, and other non-linear data types.</p>-->
+                <!--<p>We present a sample application using the outstanding D3.js data graphing libraries to illustrate three different ways to graph a hierarchical dataset.</p>-->
+                <!--<hr>-->
+                <!--<p id="graphInstructions"></p>-->
+            <!--</div>-->
+            <!--<div id="rightSidebar" class="hide-for-medium hide-for-small right-anchored fullheight right-anchored sidebar panel">-->
+                <!--{{!> inspectionSidebarTemplate }}-->
+            <!--</div>-->
+        </div>
+    </div>
+</template>
+
+<template name="inspectionSidebarTemplate">
+    <div class="panel" style="height: 197px; background-color: {{ data_color }}"></div>
+    <h6>{{ data_title }}</h6><br>
+</template>
+
+
+

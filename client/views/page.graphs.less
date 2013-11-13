@@ -1,0 +1,218 @@
+//-----------------------------------------------------------------
+//  Graphs
+
+#forceDirectGraph{
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+
+#sunburstChart{
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+
+
+//-----------------------------------------------------------------
+//  Horizontal Bar Chart
+
+.fizzle{
+  border: 1px solid red;
+  fill: orange;
+  background-color: #ff8c00;
+  height: 64px;
+  width: 64px;
+  display: block;
+  visibility: visible;
+}
+
+
+//-----------------------------------------------------------------
+// Graph-Choices
+
+.graph-choices{
+  li:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  li{
+    color: black;
+  }
+}
+
+
+
+//-----------------------------------------------------------------
+// Force-Directed Collapsible Graph
+
+circle.node {
+  cursor: pointer;
+  stroke: #000;
+  stroke-width: .5px;
+}
+
+line.link {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
+}
+
+
+//-----------------------------------------------------------------
+// Indent Tree
+
+.node rect {
+  cursor: pointer;
+  fill: #fff;
+  fill-opacity: .5;
+  stroke: #3182bd;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+path.link {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
+}
+.chart{
+  position: absolute;
+  top: 60px;
+  z-index: -1;
+}
+#svg{
+  position: fixed;
+  top: 40px;
+  padding: 20px;
+}
+.diag{
+  stroke: green;
+}
+
+
+
+//-----------------------------------------------------------------
+// Calendar/Pillbox Graph
+
+
+.day {
+  fill: #fff;
+  stroke: #ccc;
+}
+
+.month {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.RdYlGn .q0-11{fill:rgb(165,0,38)}
+.RdYlGn .q1-11{fill:rgb(215,48,39)}
+.RdYlGn .q2-11{fill:rgb(244,109,67)}
+.RdYlGn .q3-11{fill:rgb(253,174,97)}
+.RdYlGn .q4-11{fill:rgb(254,224,139)}
+.RdYlGn .q5-11{fill:rgb(255,255,191)}
+.RdYlGn .q6-11{fill:rgb(217,239,139)}
+.RdYlGn .q7-11{fill:rgb(166,217,106)}
+.RdYlGn .q8-11{fill:rgb(102,189,99)}
+.RdYlGn .q9-11{fill:rgb(26,152,80)}
+.RdYlGn .q10-11{fill:rgb(0,104,55)}
+
+
+//-----------------------------------------------------------------
+//  Hierarchical Edge Graph
+
+#networkEdgeChart{
+  path.arc {
+    cursor: move;
+    fill: #fff;
+  }
+
+  .node {
+    font-size: 10px;
+  }
+
+  .node:hover {
+    fill: #1f77b4;
+  }
+
+  .link {
+    fill: none;
+    stroke: #1f77b4;
+    stroke-opacity: .4;
+    pointer-events: none;
+  }
+
+  .link.source, .link.target {
+    stroke-opacity: 1;
+    stroke-width: 2px;
+  }
+
+  .node.target {
+    fill: #d62728 !important;
+  }
+
+  .link.source {
+    stroke: #d62728;
+  }
+
+  .node.source {
+    fill: #2ca02c;
+  }
+
+  .link.target {
+    stroke: #2ca02c;
+  }
+}
+
+
+//-----------------------------------------------------------------
+//  Streamgraph Chart
+
+#streamGraphChart{
+  position: fixed;
+  left: 0px;
+}
+
+
+
+//-----------------------------------------------------------------
+//  Horizontal Bar Chart
+
+#horizontalBarChart{
+  .bar.positive {
+    fill: steelblue;
+  }
+
+  .bar.negative {
+    fill: brown;
+  }
+
+  .axis text {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+}
+
+
+//-----------------------------------------------------------------
+//  Horizontal Bar Chart
+
+#collapsibleTreeChart .node{
+  cursor:pointer;
+}
+#sunburstChart path{
+  cursor:pointer;
+}
