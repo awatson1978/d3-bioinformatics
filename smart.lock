@@ -4,7 +4,15 @@
     "basePackages": {
       "iron-router": {},
       "font-awesome-4": {},
-      "bootstrap-3": {}
+      "bootstrap-3": {},
+      "accounts-entry-js": {
+        "git": "https://github.com/awatson1978/accounts-entry-js.git",
+        "branch": "master"
+      },
+      "accounts-famous-dead-people": {
+        "git": "https://github.com/awatson1978/accounts-famous-dead-people.git",
+        "branch": "master"
+      }
     },
     "packages": {
       "iron-router": {
@@ -21,6 +29,16 @@
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
         "tag": "v0.3.6",
         "commit": "711dbcabe333c8714298b2fd1de97fdcdae6efa7"
+      },
+      "accounts-entry-js": {
+        "git": "https://github.com/awatson1978/accounts-entry-js.git",
+        "branch": "master",
+        "commit": "d522fe53873c0a60519804f43959db2815d36818"
+      },
+      "accounts-famous-dead-people": {
+        "git": "https://github.com/awatson1978/accounts-famous-dead-people.git",
+        "branch": "master",
+        "commit": "912032943423e20110e11051745a03a799579ad7"
       }
     }
   }

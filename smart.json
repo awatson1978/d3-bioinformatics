@@ -2,6 +2,12 @@
   "packages": {
     "iron-router": {},
     "font-awesome-4": {},
-    "bootstrap-3": {}
+    "bootstrap-3": {},
+    "accounts-entry-js": {
+      "git": "https://github.com/awatson1978/accounts-entry-js.git"
+    },
+    "accounts-famous-dead-people": {
+      "git": "https://github.com/awatson1978/accounts-famous-dead-people.git"
+    }
   }
 }

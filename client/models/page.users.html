@@ -1,0 +1,43 @@
+<template name="usersPage">
+  <div id="usersPage" class="page">
+    <div class="container">
+      <div class="col col-lg-4 col-md-4 col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Users
+          </div>
+          <ul class="list-group">
+            {{#each usersList}}
+            {{> userListItem }}
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+      <div class="col col-lg-8 col-md-8 col-sm-8">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Raw JSON Record
+          </div>
+          <div class="padded json-panel">
+            {{ getDocumentJson }}
+          </div>
+        </div>
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            Parsed Tree
+          </div>
+          <div class="padded json-panel">
+            {{ getDocumentTree }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<template name="userListItem">
+  <li class="list-group-item">
+    {{ profile.name }}
+  </li>
+</template>
